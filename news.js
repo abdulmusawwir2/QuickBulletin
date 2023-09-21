@@ -13,10 +13,13 @@ xhr.onload=function(){
         let json=JSON.parse(this.responseText);
         //console.log(json);
         let articles = json.articles;
-        //console.log(articles); 
+         //   
+        console.log(articles); 
+        
         let newsHtml="";
         articles.forEach(function(element,index){ 
-            //console.log(articles[news]);
+            //
+            console.log(articles[news]);
 
             let news =`<div class="card">
              <div class="card-header" id="heading${index}">
